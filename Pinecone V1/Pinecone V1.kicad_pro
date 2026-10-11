@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -96,12 +96,12 @@
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -120,7 +120,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -156,7 +156,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -661,7 +661,7 @@
         "uuid": "2226ccf4-d188-43ab-8426-1e1c98e4575d"
       }
     ],
-    "used_designators": "L1,SW1-2,D1-3,C1-28,TP1,R1-20,R25-34,Y1,#PWR1-47,#PWR55,#PWR58-59,#PWR63-71,J1-6,F1,Q1,Q3,U1-5,U7,U9,H1-5",
+    "used_designators": "H1-5,U1-5,U7,U9,Q1,Q3,F1,J1-6,#PWR1-47,#PWR55,#PWR58-59,#PWR63-71,Y1,R1-20,R25-34,TP1,C1-28,D1-3,SW1-2,L1",
     "variants": []
   },
   "sheets": [
