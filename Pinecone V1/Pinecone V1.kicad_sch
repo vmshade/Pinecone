@@ -14556,7 +14556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680kΩ"
+		(property "Value" "680Ω"
 			(at 200.66 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
